@@ -9,7 +9,7 @@ import Jlite from './pages/Jlite';
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar /> 
       <div className="App-header">
         <Routes>
           <Route path='/my-app' exact element={<Home />} />
