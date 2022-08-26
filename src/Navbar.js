@@ -3,16 +3,16 @@ import React from 'react'
 const Navbar = () => {
     return (
         <nav className='nav'>
-            <a href="/" className='site-title'>Data Science</a>
+            <a href="/my-app" className='site-title'>Data Science</a>
             <ul>
                 <li>
-                    <a href="/repl">REPL</a>
+                    <a href="/my-app/repl">REPL</a>
                 </li>
                 <li>
-                    <a href="/jlite">J Lite</a>
+                    <a href="/my-app/jlite">J Lite</a>
                 </li>
                 <li>
-                    <a href="/observable">
+                    <a href="/my-app/observable">
                         Observable
                     </a>
                 </li>
