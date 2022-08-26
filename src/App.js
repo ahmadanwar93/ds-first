@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path='/'  element={<Home />} />
           <Route path='/repl'  element={<Repl />} />
-          <Route path='/observable' exact element={<Observable />} />
+          <Route path='/observable' element={<Observable />} />
           <Route path='/jlite'  element={<Jlite />} />
 
         </Routes>
