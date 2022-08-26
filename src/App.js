@@ -12,10 +12,10 @@ function App() {
       <Navbar /> 
       <div className="App-header">
         <Routes>
-          <Route path='/my-app' exact element={<Home />} />
-          <Route path='/my-app/repl' exact element={<Repl />} />
-          <Route path='/my-app/observable' exact element={<Observable />} />
-          <Route path='/my-app/jlite' exact element={<Jlite />} />
+          <Route path='/ds-first' exact element={<Home />} />
+          <Route path='/ds-first/repl' exact element={<Repl />} />
+          <Route path='/ds-first/observable' exact element={<Observable />} />
+          <Route path='/ds-first/jlite' exact element={<Jlite />} />
 
         </Routes>
       </div>
