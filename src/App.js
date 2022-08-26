@@ -11,11 +11,11 @@ function App() {
     <>
       <Navbar /> 
       <div className="App-header">
-        <Routes basename={process.env.REACT_APP_FOR_PATH}>
-          <Route path='/' exact element={<Home />} />
-          <Route path='/repl' exact element={<Repl />} />
+        <Routes>
+          <Route path='/'  element={<Home />} />
+          <Route path='/repl'  element={<Repl />} />
           <Route path='/observable' exact element={<Observable />} />
-          <Route path='/jlite' exact element={<Jlite />} />
+          <Route path='/jlite'  element={<Jlite />} />
 
         </Routes>
       </div>
